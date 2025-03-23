@@ -43,8 +43,7 @@
     "test:nodes": "turbo run test:nodes --concurrency=1",
     "watch": "turbo run watch --parallel",
     "webhook": "./packages/cli/bin/n8n webhook",
-    "worker": "./packages/cli/bin/n8n worker",
-    "deploy": "gh-pages -d build"
+    "worker": "./packages/cli/bin/n8n worker"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
@@ -104,6 +103,5 @@
       "vue-tsc@2.2.8": "patches/vue-tsc@2.2.8.patch",
       "eslint-plugin-n8n-local-rules": "patches/eslint-plugin-n8n-local-rules.patch"
     }
-  },
-  "homepage": "http://ai-diary.kro.kr"
+  }
 }
